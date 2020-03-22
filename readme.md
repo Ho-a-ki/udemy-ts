@@ -61,3 +61,5 @@ interface in ts are used to define the structure of an object
 - syntax + features
 
 - design patterns with ts.
+
+some test
