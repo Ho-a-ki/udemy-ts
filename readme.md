@@ -62,4 +62,26 @@ interface in ts are used to define the structure of an object
 
 - design patterns with ts.
 
-some test
+## 10. Types
+
+Basic Types in TS
+
+Types are just Shortcut.
+
+> Type = Easy way to refer to the different properties + functions that a value has
+
+## 11. More on Types.
+
+You need to remember that.
+"Every Value in TS has a type"
+
+인터페이스는 새로운 타입을 정의할 때 쓰는 것.
+사용자가 새로운 value를 만들고 그것에 타입을 지정할 때.
+
+<img src="img/lec11.png">
+
+1. Primitive Types.
+2. Object Types.
+
+## 12. Example of Types.
+
