@@ -85,3 +85,41 @@ You need to remember that.
 
 ## 12. Example of Types.
 
+## 13. Where do we use types?
+
+> Everywhere!
+
+## 14. Type Annotations and Inference.
+
+Type annotations. : 개발자가 말함 (선언).
+Type inference. : TS가 짐작함.
+
+## 15. Annotations with Variables.
+
+## 16. Object Literal Annotations.
+
+## 17. Annotations around functions.
+
+## 18. Type Inference.
+
+When to use? Always!
+
+## 19. Any Type.
+
+When to use Type Annotations?
+
+1. When a function returns the any type and we need to clarify the value
+
+2. When we declare a variable on one line then initialize it later.
+
+3. When we want a varialbe to have a type that can't be inferred
+
+<img src="img/lec19.png">
+
+json.parse()의 경우. input 값에 따라 어떤 Types이 나올지 모른다.
+
+## 20. Fixing The Any Type.
+
+## 21. Delayed Initialization.
+
+## 22. When Inference Doesn't Work.
