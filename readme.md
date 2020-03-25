@@ -174,4 +174,29 @@ https://poiemaweb.com/es6-destructuring 링크 참고 하기.
 
 ## 29. Array in TS.
 
-test
+[array.ts](features/array.ts)
+
+## 30. Why Types Arrays?
+
+## 31. Muplile Types in Array.
+
+## 32. When to use Typed Array?
+
+Any Time we need to represent a collection of records with some arbitrary sort order.
+
+# Sections 6.
+
+## 33. Tuples in Typescript.
+
+Tuple = Array-Like structure where each element presents some property of a record. (파이썬 이랑 다른 듯.)
+
+Array이지만, object의 value들만을 담은 것으로 각 array가 specific한 key를 가지고 있다. 즉 order를 가진다.
+
+## 34. Tuple in actions
+
+[tuple.ts](features/tuple.ts)
+
+## 35. Why Tuples?
+
+CSV 파일을 import 할때나 의미가 있겠지만.
+튜플이 가지는 단점이 무엇이겠냐. key가 없어서 처음 본 사람들이 그걸 이해하기 어렵겠다.
