@@ -87,6 +87,8 @@ You need to remember that.
 
 ## 13. Where do we use types?
 
+[variable.ts](features/annotaions/variables.ts)
+
 > Everywhere!
 
 ## 14. Type Annotations and Inference.
@@ -123,3 +125,51 @@ json.parse()의 경우. input 값에 따라 어떤 Types이 나올지 모른다.
 ## 21. Delayed Initialization.
 
 ## 22. When Inference Doesn't Work.
+
+# Section 4.
+
+계속해서.
+[functions.ts](features/annotaions/functions.ts)
+
+## 23. More annotations around functions.
+
+함수 생성시 types 지정이 awkward 하다.
+<img src="img/lec23.png">
+
+거의 동일하게 작동한다고 보면 된다.
+
+## 24. Inference Around Functions.
+
+함수 부분 Type 지정이 좀 어렵다.
+<img src="img/lec24.png">
+
+Type Inference는 output에서 작용하긴 하지만 우리는 이것을 사용하지 않을 것이다!
+
+## 25. Annotations for Anonymous Functions.
+
+JS에서 함수 지정하는 방법은 1. 익명함수를 variable에 지정하는 것과 2. functions 예약어를 사용해 지정하는 것
+
+function keyword로 defined된 함수도 마찬가지로 타입 지정.
+
+마찬가지로 변수에 지정된 익명함수도 마찬가지로 적용된다.
+화살표 함수까지 사용한다면 4가지 케이스가 있는 것임.
+
+variable 자체에 함수를 집어넣을 수도 있다. > 콜백함수 개념.
+
+## 26. Void and Never.
+
+## 27. Destructuring with Annotations.
+
+ES6의 디스트럭쳐링 개념이랑 같이 사용하는 것.
+
+## 28. Annotations around Objects
+
+[object.ts](features/annotaions/object.ts)
+
+중요! 디스트럭쳐링 개념 익숙해질 것.
+
+https://poiemaweb.com/es6-destructuring 링크 참고 하기.
+
+<img src="img/lec28.png">
+
+## 29. Array in TS.
