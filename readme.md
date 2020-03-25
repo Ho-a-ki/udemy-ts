@@ -173,3 +173,5 @@ https://poiemaweb.com/es6-destructuring 링크 참고 하기.
 <img src="img/lec28.png">
 
 ## 29. Array in TS.
+
+test
