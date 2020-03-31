@@ -200,3 +200,50 @@ Array이지만, object의 value들만을 담은 것으로 각 array가 specific�
 
 CSV 파일을 import 할때나 의미가 있겠지만.
 튜플이 가지는 단점이 무엇이겠냐. key가 없어서 처음 본 사람들이 그걸 이해하기 어렵겠다.
+
+# Sections 7.
+
+## 36. Interfaces.
+
+[tuple.ts](features/interfaces.ts)
+
+Interfaces + Classes = How we get really strong code reuse in TS.
+
+- Interface = create a new type, describing the property names and value types of an object.
+
+## 37. Lony Type Annotations
+
+나만의 타입을 interface로 만들어놓기.
+
+## 38. Fixing Long annotations with interfaces.
+
+## 39. Syntax around interfaces.
+
+## 40. Functions in interfaces.
+
+Interface를 사용할때, 그 오브젝트 안에
+인터페이스를 만족하는 펑션만 있다면 그 Interface에
+100% 동일하지 않더라도, 즉 합집합의 형태라면
+에러를 반환하지 않는다.
+
+예) 특정한 함수 a가 interface B를 필요로 한다.
+interface B에서 선언된 타입은 함수 c() : string 이다.
+이때 객체 x가 가지고 있는 keys에 c()만 있다면, 객체 x도
+함수 a(x)로 선언될 수 있다는 것이다.
+
+객체 x가 c(),somefunc(),keyA,keyB.
+객체 y가 c(), somefunc2(),keyC
+이렇게 있어도 함수 a(x), a(y) 둘다 가능하다는 것.
+
+## 41. Code reuse with Interfaces.
+
+하나의 인터페이스로도 굉장히 다른 Object를 정의하여 사용할 수 있다.
+이 경우 Drink와 Cars들.
+
+## 42. General Plan with InterFaces.
+
+<img src="img/lec42.png">
+
+## 43. QUIZ
+
+<img src="img/lec43.png">
