@@ -244,6 +244,35 @@ interface B에서 선언된 타입은 함수 c() : string 이다.
 
 <img src="img/lec42.png">
 
-## 43. QUIZ
+## QUIZ
 
 <img src="img/lec43.png">
+
+# Section 8.
+
+## 43. Classes
+
+Classes = Blueprint to create an object with some fileds and method to represent a thing.
+
+## 44. Basic Inheritance
+
+상속하기.
+inheritance > extends.
+
+## 45. Instance Method Modifiers.
+
+<img src="img/lec44.png">
+
+public.
+priate.
+protected.
+
+## 46. Fields in Classes
+
+## 47. Fields with inheritance.
+
+상속과 생성자. 생성자를 상속하여 다시.
+
+## 48. Where to use Classes.
+
+Interfaces + Classes = How we get really strong code reuse in TS.
